@@ -40,10 +40,13 @@ jobs:
           pwd
           cd /home/runner/work/github_actions/github_actions/scripts
           python3 script_v1.py >> script_v1.txt
+          find .
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+          pwd
+          cd /home/runner/work/github_actions/github_actions/scripts
           git add script_v1.txt
           git commit -m "Automated commit from GitHub Actions"
           git push
