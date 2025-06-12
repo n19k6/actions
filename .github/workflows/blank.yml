@@ -47,6 +47,6 @@ jobs:
           git config --global user.email "github-actions@github.com"
           pwd
           cd /home/runner/work/github_actions/github_actions/scripts
-          git add script_v1.txt
-          git commit -m "Automated commit from GitHub Actions"
-          git push
+          #git add script_v1.txt
+          #git commit -m "Automated commit from GitHub Actions"
+          #git push
