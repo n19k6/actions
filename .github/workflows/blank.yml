@@ -34,3 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          find /home/runner/work/github_actions/github_actions
+          python3 -V
+          
